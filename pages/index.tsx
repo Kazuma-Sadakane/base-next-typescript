@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import styles from '@/pages/index.module.css';
 
-export const Home: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -63,3 +63,5 @@ export const Home: React.FC = () => {
     </div>
   );
 };
+
+export default Home;
